@@ -1,0 +1,177 @@
+body {
+  background-color: #eaeaea;
+  font-family: "Montserrat", sans-serif;
+}
+#title {
+  background-color: #eaeaea;
+}
+.container-fluid {
+  padding: 0% 15% 3% 15%;
+}
+h1 {
+  color: #ff2e63;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+h3 {
+  color: #23272b;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1rem;
+  color: #46484b;
+}
+em {
+  font-weight: 400;
+  color: #ff2e63;
+}
+.navbar {
+  background-color: #23272b;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #08d9d6;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fa-google-play {
+  padding-right: 5px;
+}
+.hero{
+  padding-top: 50px;
+}
+.hero-text {
+  padding-bottom: 30px;
+  color: #23272b;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.mockup {
+  width: 400px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 100px;
+  transform: rotate(20deg);
+  position: absolute;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Download {
+  margin-right: 3%;
+}
+
+#features {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+.feature {
+  margin-top: 250px;
+  margin-bottom: 150px;
+}
+.feature-icons {
+  padding-bottom: 20px;
+  color: #ff2e63;
+}
+.btn {
+  font-weight: 600;
+}
+.btn-dark.custom-btn {
+  background-color: #08d9d6;
+  border-color: #08d9d6;
+  color: #23272b;
+}
+.btn-dark.custom-btn:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+  color: #fff;
+}
+.btn-outline-dark {
+  border-width: 2px;
+  border-color: #23272b;
+  color: #23272b;
+}
+.btn-outline-dark:hover {
+  border-color: #08d9d6;
+  background-color: #08d9d600;
+  color: #08d9d6;
+}
+#testimonials {
+  text-align: center;
+  background-color: #eaeaea;
+}
+.testimonial-text {
+  font-weight: 700;
+  padding-bottom: 3%;
+}
+.profile {
+  width: 6%;
+  border-radius: 100%;
+  margin: 20px 10px 20px;
+}
+.carousel-item {
+  padding: 7% 20%;
+}
+.carousel-control-prev-icon {
+  filter: invert(100%);
+}
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+#press {
+  background-color: #eaeaea;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo {
+  width: 15%;
+  margin: 0 30px;
+}
+#pricing {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 15% 50px;
+}
+.price {
+  color: #ff2e63;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.plan-features {
+  color: #23272b;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  margin: 70px auto 30px;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .mockup{
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+  }
+  #features {
+    margin-top: 50px;
+  }
+  .feature {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
