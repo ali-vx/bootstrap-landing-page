@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VOD</title>
+    <script
+      src="https://kit.fontawesome.com/b2348c9ea1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section id="title">
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">VOD</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 hero">
+            <h1>Watch The Best Movies And TV-Shows Anywhere.</h1>
+            <h2 class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              cursus laoreet odio.
+            </h2>
+            <button
+              type="button"
+              class="btn btn-dark custom-btn btn-lg Download"
+            >
+              <i class="fab fa-google-play"></i>Download
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-lg">
+              <i class="fab fa-apple"></i>
+              Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img class="mockup" src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="row" id="features">
+      <div class="feature col-lg-4">
+        <i class="feature-icons fas fa-check-circle fa-5x"></i>
+        <h3>Easy to use.</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="feature col-lg-4">
+        <i class="feature-icons fas fa-bullseye fa-5x"></i>
+        <h3>Curated Recommendations</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="feature col-lg-4">
+        <i class="feature-icons fas fa-heart fa-5x"></i>
+        <h3>Huge Collection.</h3>
+        <p>Ut auctor lorem mi, eget eleifend odio sagittis et.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              cursus laoreet odio, non fringilla quam venenatis eu.
+            </h2>
+            <img class="profile" src="images/profile.jpg" alt="profile-img" />
+            <em>John Doe, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              cursus laoreet odio, non fringilla quam venenatis eu.
+            </h2>
+            <img class="profile" src="images/profile.jpg" alt="profile-img" />
+            <em>John Doe, New York</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h1 class="pricing-header">Pricing And Plans</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Free</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price">$0/mo</h2>
+              <h2 class="plan-features">Single device</h2>
+              <h2 class="plan-features">100 minutes Per Day</h2>
+              <h2 class="plan-features">5 shows at a time</h2>
+              <h2 class="plan-features">Ads enabled</h2>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-primary"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Pro</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price">$49/mo</h2>
+              <h2 class="plan-features">Single device</h2>
+              <h2 class="plan-features">Unlimited minutes</h2>
+              <h2 class="plan-features">Unlimited shows</h2>
+              <h2 class="plan-features">No ads</h2>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Family</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price">$99/mo</h2>
+              <h2 class="plan-features">Multiple devices</h2>
+              <h2 class="plan-features">Unlimited minutes</h2>
+              <h2 class="plan-features">Unlimited shows</h2>
+              <h2 class="plan-features">No ads</h2>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-auto">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="col-lg-auto">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="col-lg-auto">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="col-lg-auto">
+          <i class="fas fa-envelope"></i>
+        </div>
+      </div>
+      <p>© Copyright 2018 VOD</p>
+    </footer>
+  </body>
+</html>
